@@ -1,10 +1,12 @@
 import "./App.css";
-import { useState } from "react";
+import List from "./List";
+
+// import Counter from "./Counter";
 function App() {
-  const [text, setText] = useState();
-  const handleChange = (event) => {
-    setText(event.target.value);
-  };
+  // const [text, setText] = useState();
+  // const handleChange = (event) => {
+  //   setText(event.target.value);
+  // };
   // const state = useState("devnest");
   // console.log(state[0]);
   // console.log(state[1]);
@@ -21,10 +23,12 @@ function App() {
   //   console.log("updated value of text", text);
   // };
   return (
-    <div className="App">
-      <input type="text" name="content" onChange={handleChange} />
-      {text}
-    </div>
+    // <div className="App">
+    //   <input type="text" name="content" onChange={handleChange} />
+    //   {text}
+    // </div>
+    // <Counter />
+    <List />
   );
 }
 

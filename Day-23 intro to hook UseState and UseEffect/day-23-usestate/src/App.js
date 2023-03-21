@@ -1,7 +1,9 @@
 import "./App.css";
-import List from "./List";
+// import List from "./List";
 
 // import Counter from "./Counter";
+// import UseEffectExample from "./UseEffect-example";
+import Products from "./Products";
 function App() {
   // const [text, setText] = useState();
   // const handleChange = (event) => {
@@ -28,7 +30,9 @@ function App() {
     //   {text}
     // </div>
     // <Counter />
-    <List />
+    // <List />
+    // <UseEffectExample />
+    <Products />
   );
 }
 

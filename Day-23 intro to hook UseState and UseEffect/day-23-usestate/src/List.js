@@ -6,6 +6,10 @@ function List() {
     console.log("%c get item called", "color:royalblue");
     return Array(50).fill(0);
   };
+
+  //const [items,setItems]=useState(getItems)
+  //const [items,setItems]=useState(()=>getItems())
+
   const [items, setItems] = useState(getItems());
   return (
     <div className="card">
